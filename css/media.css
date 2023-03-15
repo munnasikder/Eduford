@@ -1,0 +1,147 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+	.text_box {
+	    padding-top: 40px;
+	}
+	.text_box h1 {
+	    font-size: 22px;
+	}
+	.text_box p {
+	    font-size: 13px;
+	}
+	.hero_btn{
+		margin-top: 0;
+	}
+	.text_box {
+	    padding-top: 40px;
+	}
+/*course start*/
+	.course {
+	    padding: 40px 0;
+	}
+	.c_title h1 {
+	    font-size: 25px;
+	}
+	.c_title p {
+	    font-size: 18px;
+	}
+/*campus start*/
+	.campus {
+	    padding-bottom: 40px;
+	}
+/*facilities start*/
+	.facilities {
+	    padding-bottom: 40px;
+	}
+/*testimonial start*/
+	.testimonials{
+		padding-bottom: 40px;
+	}
+	.t_content h5 {
+	    font-size: 18px;
+	}
+/*cta start*/
+	.cta {
+	    padding-bottom: 40px;
+	}
+	.cta_title h1 {
+	    font-size: 22px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+	.text_box {
+	    padding-top: 60px;
+	}
+	.text_box h1 {
+	    font-size: 40px;
+	}	
+	.text_box p {
+	    font-size: 12px;
+	}
+	.hero_btn{
+		margin-top: 0;
+	}
+/*course start*/
+	.course {
+	    padding: 60px 0;
+	}
+	.c_title p {
+	    font-size: 16px;
+	}
+/*campus start*/
+	.campus {
+	    padding-bottom: 60px;
+	}
+/*testimonial start*/
+	.testimonials{
+		padding-bottom: 60px;
+	}
+/*cta start*/
+	.cta {
+	    padding-bottom: 60px;
+	}
+	.cta_title h1 {
+	    font-size: 27px;
+	}
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+	.text_box {
+	    padding-top: 80px;
+	}
+	.text_box h1 {
+	    font-size: 50px;
+	}
+/*course start*/
+	.course {
+	    padding: 80px 0;
+	}
+	.c_title p {
+	    font-size: 18px;
+	}
+/*campus start*/
+	.campus {
+	    padding-bottom: 80px;
+	}
+/*testimonial start*/
+	.testimonials{
+		padding-bottom: 80px;
+	}
+/*cta start*/
+	.cta {
+	    padding-bottom: 80px;
+	}
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header start*/
+	.text_box {
+	    padding-top: 100px;
+	}
+/*facilities start*/
+	.f_single h3 {
+	    font-size: 24px;
+	}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*header start*/
+
+}
+
+/*Extra extra large devices (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*header start*/
+	
+}
+

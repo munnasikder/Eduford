@@ -1,0 +1,229 @@
+body{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	min-height: 100vh;
+	width: 100%;
+	padding: 20px 0;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+					 url(../images/banner.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+
+}
+.nav{}
+.logo{
+	width: 150px;
+}
+.c_btn{
+	color: red !important;
+    border-color: red !important;
+}
+#nav_cus{}
+#nav_cus ul{}
+#nav_cus ul li{
+	padding: 8px 12px;
+}
+#nav_cus ul li a{
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+}
+#nav_cus ul li a::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background-color: #f44336;
+	display: block;
+	margin: auto;
+	transition: .4s;
+
+}
+#nav_cus ul li a:hover::after{
+	width: 100%;
+}
+.text_box{
+	color: #fff;
+	padding-top: 160px;
+}
+.text_box h1 {
+    font-size: 62px;
+}
+.text_box p{
+	margin: 20px 0;
+
+}
+.hero_btn{
+	text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .3s;
+}
+.hero_btn:hover{
+	background-color: #f44336;
+	color: #fff;
+}
+.course{
+	padding: 100px 0;
+}
+.c_title h1{
+	font-size: 30px;
+	font-weight: 600;
+}
+.c_title p{
+    font-size: 20px;
+	line-height: 22px;
+}
+.c_content{
+	background-color: #fff3f3;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin: 30px 0 0 0;
+	padding: 10px 10px;
+	transition: .5s;
+}
+.c_content h3{
+	margin-top: 15px;
+	font-size: 22px;
+    font-weight: 600;
+}
+.c_content p{
+	padding: 20px 20px;
+    text-align: justify;
+    line-height: 25px;
+
+}
+.c_content:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.campus{
+	padding-bottom: 100px;
+}
+.campus_content{
+	border: 1px solid #00000029;
+	border-radius: 10px;
+	margin: 30px 0;
+	overflow: hidden;
+}
+
+.campus_content img{
+	width: 100%;
+}
+
+.campus_content{
+	font-size: 20px;
+	text-transform: uppercase;
+	background-color: transparent;
+	transition: .5s;
+}
+.campus_content:hover{
+	color: #fff;
+	background-color: rgba(227, 0, 0, 0.7);
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.facilities{
+	padding-bottom: 100px;
+}
+.f_single{
+	margin-top: 30px;
+	border: 1px solid #00000021;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	transition: .5s;
+}
+.f_single img{
+	width: 100%;
+    border-radius: 10px;
+}
+.f_single h3{
+	margin: 15px;
+}
+.f_single p{
+    margin: 15px 15px 25px 15px;
+}
+.f_single:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.testimonials{
+	padding-bottom: 100px;
+}
+.t_single{
+	margin-top: 30px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	background-color: #fff3f3;
+	padding: 25px;
+	cursor:	pointer;
+	display: flex;
+	transition: .5s;
+}
+.t_single:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.t_img{
+}
+.t_img img{
+	height: 50px;
+	margin: 0 30px 0 5px;
+	border-radius: 50%;
+}
+.t_content{}
+.t_content p{
+	padding: 0;
+}
+.t_content h5{
+	margin-top: 15px;
+}
+.t_content i{
+	color: #f44336;
+}
+.cta{
+	padding-bottom: 100px;
+}
+.cta_title{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+					 url(../images/banner2.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.cta_title h1{
+	color: #fff;
+	margin-bottom: 40px;
+}
+footer{
+	padding: 30px 0;
+}
+.f_content h4{
+	margin: 20px 0 25px 0;
+	font-weight: 600;
+}
+.f_content p{}
+.f_icon{
+	font-size: 25px;
+	cursor: pointer;
+	padding: 10px 0;
+	
+}
+.f_icon i{
+	margin: 0 5px;
+	transition: .3s;
+}
+.f_icon i:hover{
+	color: #f44336;
+}
+
+.f_p {
+    font-size: 14px;
+}
